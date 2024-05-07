@@ -1,0 +1,64 @@
+.OuterSignup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSignup {
+    width: 30vw;
+    padding: 20px;
+    border: 2px double #ddd; /* Double-lined border */
+    border-radius: 0; /* No rounded edges */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increased shadow */
+}
+
+.formSignup label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: calc(100% - 20px); /* Adjusting for padding and border */
+    padding: 10px;
+    margin-top: 5px;
+    border: none; /* Remove inner border */
+    border-bottom: 1px solid #888282; /* Single line bottom border */
+    border-radius: 0; /* No rounded edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.76); /* Increased shadow */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    margin-right: 15px;
+    width: calc(100% - 20px); /* Adjusting for padding and border */
+    background-color: rgb(29, 80, 29);
+    color: #fff;
+    border: none;
+    border-radius: 0; /* No rounded edges */
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(65, 32, 32, 0.61); /* Increased shadow */
+
+}
+
+.btn-primary:hover {
+    background-color: #0a0a0a;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    margin-left: 10px;
+}

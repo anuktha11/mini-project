@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #6767cc;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-toggler {
+    border-color: #6999cc;
+  }
+  
+  /* Active link styling */
+  .navbar-nav .active > .nav-link {
+    color: #007bff;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    background-color: #ffffff;
+    border-color: #007bff;
+  }
+  
+  .dropdown-item {
+    color: #007bff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Disabled link styling */
+  .navbar-nav .nav-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-bottom: 0.5rem;
+    }
+  
+    .dropdown-divider {
+      display: none;
+    }
+  }
+  
+
+  
+  
